@@ -1,0 +1,20 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Backup / temp folders
+docs-old/
+docs-old-backup/
+*.bak
+
+# Large or unnecessary files
+*.zip
+*.log
+
+# Node / build artifacts (if you add any later)
+node_modules/
+dist/
