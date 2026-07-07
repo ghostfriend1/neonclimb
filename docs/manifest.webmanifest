@@ -1,16 +1,16 @@
 {
-  "name": "CNI Neon Climb",
+  "name": "¢ni Neon Climb",
   "short_name": "Neon Climb",
-  "start_url": "./",
+  "description": "Cyber-cats ascend an endless neon spire. Every run generates verifiable proof. Part of the Cat Network Index ecosystem.",
+  "start_url": "./index.html",
   "scope": "./",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#00ffee",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#0a0015",
+  "theme_color": "#0a0015",
+  "categories": ["games", "entertainment"],
   "icons": [
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
